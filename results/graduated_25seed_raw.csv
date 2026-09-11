@@ -1,0 +1,76 @@
+seed,script,label,n_quiet_events,n_allow,quiet_throughput,closed_within_budget,first_allow_event,mean_admission_rate
+1,test_pure_mapek,Baseline,50,15,0.3,True,36,
+1,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+1,test_nist_graduated,MAPE-SR (graduated),50,33,0.66,True,9,0.61
+2,test_pure_mapek,Baseline,50,15,0.3,True,36,
+2,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+2,test_nist_graduated,MAPE-SR (graduated),50,31,0.62,True,11,0.61
+3,test_pure_mapek,Baseline,50,15,0.3,True,36,
+3,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+3,test_nist_graduated,MAPE-SR (graduated),50,32,0.64,True,16,0.61
+4,test_pure_mapek,Baseline,50,13,0.26,True,38,
+4,test_adaptive_generic,Adaptive-Generic,50,13,0.26,True,38,
+4,test_nist_graduated,MAPE-SR (graduated),50,25,0.5,True,11,0.58
+5,test_pure_mapek,Baseline,50,15,0.3,True,36,
+5,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+5,test_nist_graduated,MAPE-SR (graduated),50,37,0.74,True,7,0.61
+6,test_pure_mapek,Baseline,50,15,0.3,True,36,
+6,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+6,test_nist_graduated,MAPE-SR (graduated),50,32,0.64,True,8,0.61
+7,test_pure_mapek,Baseline,50,17,0.34,True,34,
+7,test_adaptive_generic,Adaptive-Generic,50,17,0.34,True,34,
+7,test_nist_graduated,MAPE-SR (graduated),50,32,0.64,True,5,0.64
+8,test_pure_mapek,Baseline,50,15,0.3,True,36,
+8,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+8,test_nist_graduated,MAPE-SR (graduated),50,32,0.64,True,9,0.61
+9,test_pure_mapek,Baseline,50,15,0.3,True,36,
+9,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+9,test_nist_graduated,MAPE-SR (graduated),50,30,0.6,True,11,0.61
+10,test_pure_mapek,Baseline,50,17,0.34,True,34,
+10,test_adaptive_generic,Adaptive-Generic,50,17,0.34,True,34,
+10,test_nist_graduated,MAPE-SR (graduated),50,30,0.6,True,8,0.64
+11,test_pure_mapek,Baseline,50,15,0.3,True,36,
+11,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+11,test_nist_graduated,MAPE-SR (graduated),50,29,0.58,True,11,0.61
+12,test_pure_mapek,Baseline,50,15,0.3,True,36,
+12,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+12,test_nist_graduated,MAPE-SR (graduated),50,31,0.62,True,12,0.61
+13,test_pure_mapek,Baseline,50,15,0.3,True,36,
+13,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+13,test_nist_graduated,MAPE-SR (graduated),50,33,0.66,True,8,0.61
+14,test_pure_mapek,Baseline,50,15,0.3,True,36,
+14,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+14,test_nist_graduated,MAPE-SR (graduated),50,31,0.62,True,14,0.61
+15,test_pure_mapek,Baseline,50,15,0.3,True,36,
+15,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+15,test_nist_graduated,MAPE-SR (graduated),50,29,0.58,True,15,0.61
+16,test_pure_mapek,Baseline,50,15,0.3,True,36,
+16,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+16,test_nist_graduated,MAPE-SR (graduated),50,31,0.62,True,12,0.61
+17,test_pure_mapek,Baseline,50,17,0.34,True,34,
+17,test_adaptive_generic,Adaptive-Generic,50,17,0.34,True,34,
+17,test_nist_graduated,MAPE-SR (graduated),50,37,0.74,True,6,0.64
+18,test_pure_mapek,Baseline,50,15,0.3,True,36,
+18,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+18,test_nist_graduated,MAPE-SR (graduated),50,33,0.66,True,7,0.61
+19,test_pure_mapek,Baseline,50,15,0.3,True,36,
+19,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+19,test_nist_graduated,MAPE-SR (graduated),50,31,0.62,True,6,0.61
+20,test_pure_mapek,Baseline,50,15,0.3,True,36,
+20,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+20,test_nist_graduated,MAPE-SR (graduated),50,28,0.56,True,15,0.61
+21,test_pure_mapek,Baseline,50,17,0.34,True,34,
+21,test_adaptive_generic,Adaptive-Generic,50,17,0.34,True,34,
+21,test_nist_graduated,MAPE-SR (graduated),50,31,0.62,True,10,0.64
+22,test_pure_mapek,Baseline,50,15,0.3,True,36,
+22,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+22,test_nist_graduated,MAPE-SR (graduated),50,28,0.56,True,6,0.61
+23,test_pure_mapek,Baseline,50,15,0.3,True,36,
+23,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+23,test_nist_graduated,MAPE-SR (graduated),50,31,0.62,True,7,0.61
+24,test_pure_mapek,Baseline,50,15,0.3,True,36,
+24,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+24,test_nist_graduated,MAPE-SR (graduated),50,30,0.6,True,13,0.61
+25,test_pure_mapek,Baseline,50,15,0.3,True,36,
+25,test_adaptive_generic,Adaptive-Generic,50,15,0.3,True,36,
+25,test_nist_graduated,MAPE-SR (graduated),50,28,0.56,True,9,0.61

@@ -2,14 +2,12 @@
 baseline_driver.py
 
 Minimal driver interface the harness/ scripts use to exercise the
-"Baseline" (pure MAPE-K, fixed-threshold) agent under test. The agent's
-own implementation is NOT included in this repository -- this file only
-documents and implements the protocol used to talk to it, so a reviewer
-can understand the experimental setup without the agent's source.
+"Baseline" (pure MAPE-K, fixed-threshold) agent under test. The agent
+itself is agent/agent_pure_mapek.py; this file documents and implements
+the protocol used to talk to it.
 
 Run standalone: python harness/drivers/baseline_driver.py --seed 1
-(spawns AGENT_SCRIPT as a subprocess from AGENT_DIR -- only works if you
-place a compatible agent implementation at that path yourself.)
+(spawns AGENT_SCRIPT as a subprocess from AGENT_DIR, i.e. agent/.)
 """
 import os
 import random
@@ -20,7 +18,7 @@ import time
 import requests
 
 AGENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "agent")
-AGENT_SCRIPT = "agent_pure_mapek.py"  # not included in this repository
+AGENT_SCRIPT = "agent_pure_mapek.py"  # agent/agent_pure_mapek.py
 AGENT_URL = "http://localhost:5001"
 
 DEFAULT_SEED = 42
@@ -41,8 +39,8 @@ def set_seed(seed):
 # ============================================================
 # AGENT PROTOCOL
 #
-# This driver expects an HTTP agent process (not included in this
-# repository) reachable at AGENT_URL = "http://localhost:5001":
+# This driver expects an HTTP agent process (agent/agent_pure_mapek.py)
+# reachable at AGENT_URL = "http://localhost:5001":
 #
 #   GET  /metrics
 #     Polled by wait_ready() until it responds (any 200), to detect that

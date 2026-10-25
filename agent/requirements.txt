@@ -1,0 +1,8 @@
+# Versions used for the paper's runs. scikit-learn must match the version
+# that pickled models/rf_ddos_model.pkl (1.9.0); other versions may refuse
+# to load it or warn on load.
+scikit-learn==1.9.0
+numpy==2.5.2
+joblib==1.6.0
+flask==3.1.3
+requests

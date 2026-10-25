@@ -11,9 +11,9 @@ and admission oscillation.
 MAPE-SR here means the full graduated-response agent (CONTAINED /
 ERADICATED escalation tiers, RECOVERING admission phase with a rising
 per-event admission_rate) -- see harness/drivers/mapesr_driver.py's
-comment block for the exact response fields this depends on. No agent
-source is included in this repository; the protocol used to talk to
-each of the three agents under test is fully documented in
+comment block for the exact response fields this depends on. The three
+agents under test are in agent/; the protocol used to talk to each of
+them is documented in
 harness/drivers/{baseline,adaptive_generic,mapesr}_driver.py.
 
 For each (seed, script) pair, this script keeps the FULL per-event

@@ -26,7 +26,8 @@ results/graduated_25seed_raw.csv (already included in this repository)
 and with analysis/analyze_graduated_25seed.py, both of which predate a
 later consolidation on the agent side that folded the graduated-recovery
 behavior into the single "MAPE-SR" agent used everywhere else in this
-repo (harness/drivers/mapesr_driver.py, AGENT_SCRIPT = "agent_nist.py").
+repo (harness/drivers/mapesr_driver.py, AGENT_SCRIPT = "agent_nist.py",
+i.e. agent/agent_nist.py).
 There is no separate graduated-only agent variant anymore -- this
 script's MAPE-SR row is driven by the exact same mapesr_driver.py /
 agent as run_admission_metrics_25seed.py's, just re-run over this

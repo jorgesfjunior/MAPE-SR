@@ -4,13 +4,11 @@ mapesr_driver.py
 Minimal driver interface the harness/ scripts use to exercise the
 "MAPE-SR" agent under test (the full graduated-response MAPE-K agent:
 CONTAINED/ERADICATED escalation tiers plus a graduated RECOVERING
-admission phase). The agent's own implementation is NOT included in
-this repository -- this file only documents and implements the protocol
-used to talk to it.
+admission phase). The agent itself is agent/agent_nist.py; this file
+documents and implements the protocol used to talk to it.
 
 Run standalone: python harness/drivers/mapesr_driver.py --seed 1
-(spawns AGENT_SCRIPT as a subprocess from AGENT_DIR -- only works if you
-place a compatible agent implementation at that path yourself.)
+(spawns AGENT_SCRIPT as a subprocess from AGENT_DIR, i.e. agent/.)
 """
 import os
 import random
@@ -21,7 +19,7 @@ import time
 import requests
 
 AGENT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "agent")
-AGENT_SCRIPT = "agent_nist.py"  # not included in this repository
+AGENT_SCRIPT = "agent_nist.py"  # agent/agent_nist.py
 AGENT_URL = "http://localhost:5001"
 
 DEFAULT_SEED = 42
